@@ -1,7 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+	For git to create it .git file and start recording
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+	
+	The Staging Area allows you to pick and choose what you want to commit from the Working Directory to the Repository
 
 How can you use the staging area to make sure you have one commit per logical
 change?
