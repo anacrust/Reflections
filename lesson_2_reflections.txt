@@ -10,15 +10,25 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-	Nope
+	Using "git diff"
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	1) For experimental changes
+	2) For different lang editions
+	3) Keep your current path
+
 How do the diagrams help you visualize the branch structure?
+
+	Follow the branches back to find how they're connected and who their parent files are.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Having a new edition that combines the two as parents off both branches are there.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	
+	It's fast but may leave out some control.
